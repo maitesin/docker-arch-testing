@@ -25,5 +25,6 @@ RUN sudo vca-install-package \
   python-pylint \
   yapf \
   python-requests \
-  python-pytest
-
+  python-pytest \
+  python-sphinx \
+  python-sphinx_rtd_theme
