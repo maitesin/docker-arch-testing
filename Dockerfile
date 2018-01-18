@@ -28,3 +28,7 @@ RUN sudo vca-install-package \
   python-pytest \
   python-sphinx \
   python-sphinx_rtd_theme
+
+# Install pip packages
+RUN sudo pip install pytest-ordering
+
