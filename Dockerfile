@@ -20,6 +20,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 # Install packages
 RUN sudo vca-install-package \
   gcc \
+  pkg-config \
   git \
   make \
   python-pip \
