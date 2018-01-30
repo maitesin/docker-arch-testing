@@ -31,5 +31,5 @@ RUN sudo vca-install-package \
   python-sphinx_rtd_theme
 
 # Install pip packages
-RUN sudo pip install pytest-ordering pygi
+RUN sudo pip install pytest-ordering PyGObject
 
