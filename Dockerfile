@@ -22,6 +22,7 @@ RUN sudo vca-install-package \
   gcc \
   pkg-config \
   cairo \
+  gobject-introspection \
   git \
   make \
   python-pip \
