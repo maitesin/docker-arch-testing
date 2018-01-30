@@ -21,6 +21,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 RUN sudo vca-install-package \
   gcc \
   pkg-config \
+  cairo \
   git \
   make \
   python-pip \
